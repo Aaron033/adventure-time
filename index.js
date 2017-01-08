@@ -1,5 +1,6 @@
 'use strict';
 
+const characters = require('./characters');
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -18,15 +19,21 @@ app.post('/', (req, res) => {
   let text = req.body.text;
 
   if(! /[A-z]/g.test(text)) { //if an Adventure Time Character's name contains integers
-    res.send('Please enter a character from Adventure Time, like Lumpy Space Princess.');
+    res.send("Please don't enter numbers, but rather please enter a character from Adventure Time, like Lumpy Space Princess.");
   return;
+  }
+
+  let name = text.replace(/\s/g,'').toLowerCase();
+  if (!(name in characters)) {
+    res.send(`Sorry about that, "${name}" is not an Adventure Time character I recognize ⭐️ `);
+    return;
   }
 
   let data = {
     response_type: 'in_channel', //public to channel
-    text: 'Character: Found',
+    text: `${name} Found`,
     attachments:[ {
-      image_url: 'http://vignette2.wikia.nocookie.net/adventuretimewithfinnandjake/images/c/cb/13bubblegum.png/revision/latest?cb=20110504011232'
+      image_url: characters[name]
     } ]};
 
     res.json(data);

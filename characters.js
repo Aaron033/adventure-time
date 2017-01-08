@@ -1,0 +1,15 @@
+module.exports = {
+  princessbubblegum: "https://i.kinja-img.com/gawker-media/image/upload/s--uzxAi0M2--/c_fit,fl_progressive,q_80,w_636/obdoeu239wi6brp1lhki.gif",
+  bubblegum: "https://s-media-cache-ak0.pinimg.com/originals/07/34/03/073403abd4683ae4b6c0560e1679c9ff.gif",
+  bubbline: "https://media1.giphy.com/media/Ue55CpP8r1lAc/200_s.gif",
+  lumpyspaceprincess: "http://vignette1.wikia.nocookie.net/adventuretimewithfinnandjake/images/7/73/LSP's_Phone.png/revision/latest?cb=20130724203924",
+  lsp: "https://media1.giphy.com/media/3eT5kJmvLl8TC/200_s.gif",
+  jake: "https://media.giphy.com/media/f31DK1KpGsyMU/giphy.gif",
+  jakethedog: "https://media.giphy.com/media/grxSbqtDPlADm/giphy.gif",
+  finn: "https://media2.giphy.com/media/rOTGSPxvJJY7m/200_s.gif",
+  marceline: "http://vignette2.wikia.nocookie.net/adventuretimewithfinnandjake/images/b/bd/MarcelineRocknRoll.png/revision/latest?cb=20120817165554",
+  rainicorn: "https://k40.kn3.net/73B206562.png",
+  ladyrainicorn: "http://vignette3.wikia.nocookie.net/adventuretimewithfinnandjake/images/a/ad/1ATLadyRainicornLook.png/revision/latest?cb=20111213075543",
+  lady: "http://jakeandfinn97.weebly.com/uploads/2/2/8/0/22804230/5739733_orig.gif",
+  bmo: "https://cdn.scratch.mit.edu/static/site/users/avatars/1000/2402.png",
+}
