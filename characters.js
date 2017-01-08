@@ -36,5 +36,11 @@ module.exports = {
   icequeen: "http://vignette2.wikia.nocookie.net/adventuretimewithfinnandjake/images/d/dc/Ice_queen.png/revision/latest?cb=20120810115559",
   cinnamon: "http://vignette2.wikia.nocookie.net/adventuretimewithfinnandjake/images/1/1b/Cinnamon.png/revision/latest?cb=20120721222323",
   cinnamonbun: "http://vignette2.wikia.nocookie.net/adventuretimewithfinnandjake/images/1/1b/Cinnamon.png/revision/latest?cb=20120721222323",
-  treetrunks: "http://2.bp.blogspot.com/-bcIXTxkAC8g/Utrpr8RBc3I/AAAAAAAAPrI/SNQcq6XoLYs/s1600/tree-trunks-adventure-time-polly-lou-livingston.jpg"
+  treetrunks: "http://2.bp.blogspot.com/-bcIXTxkAC8g/Utrpr8RBc3I/AAAAAAAAPrI/SNQcq6XoLYs/s1600/tree-trunks-adventure-time-polly-lou-livingston.jpg",
+  chocoberry: "http://vignette3.wikia.nocookie.net/adventuretimewithfinnandjake/images/a/aa/Chocoberry.png/revision/latest?cb=20120901040345",
+  lumpoff: "https://pbs.twimg.com/profile_images/444692502700781569/qzj4HVrH.png",
+  ohmyglob: "http://cdn.shopify.com/s/files/1/0267/4223/products/oh-my-glob-t-shirt-teeturtle-cartoon-network_800x.jpg?v=1478721205",
+  algebraic: "https://s-media-cache-ak0.pinimg.com/736x/e4/3a/37/e43a3712b1d50a68bb4b37a7973a9ec8.jpg",
+  science: "https://1.bp.blogspot.com/-PCX2BkZUGuc/VtSZG4m9j5I/AAAAAAAACso/-1b0HYp_oKw/s400/Science%2521.gif",
+  mathematical: "http://i.imgur.com/DNGF5Tf.gif"
 }
