@@ -31,7 +31,7 @@ app.post('/', (req, res) => {
 
   let data = {
     response_type: 'in_channel', //public to channel
-    text: `${name} Found`,
+    text: `${name} found ✨`,
     attachments:[ {
       image_url: characters[name]
     } ]};
