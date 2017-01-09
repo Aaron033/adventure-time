@@ -1,0 +1,33 @@
+{
+  "name": "adventure-time",
+  "version": "1.0.0",
+  "description": "Want to quickly get an image or gif of an Adventure Time character? Look no further, just type /adventure-time and the name of your favorite Adventure Time character! This bot responds with an amazing gif or image of said Adventure Time character 🌟",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbonap/adventure-time.git"
+  },
+  "keywords": [
+    "slack",
+    "slack-bot",
+    "bot",
+    "adventure-time",
+    "cartoon-network",
+    "cartoons"
+  ],
+  "author": "Patricia Arbona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arbonap/adventure-time/issues"
+  },
+  "homepage": "https://github.com/arbonap/adventure-time#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "moment": "^2.17.1",
+    "request": "^2.79.0"
+  }
+}
