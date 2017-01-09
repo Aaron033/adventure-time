@@ -4,6 +4,7 @@ const characters = require('./characters');
 const express = require('express');
 const bodyParser = require('body-parser');
 const moment = require('moment');
+const titleize = require('titleize');
 
 const app = express();
 app.use(bodyParser.json()); //support json encoded bodies
@@ -33,10 +34,12 @@ app.post('/', (req, res) => {
   let time = moment().format('MMMM Do YYYY, h:mm:ss a');
   console.log(time);
   let data = {
-    response_type: 'in_channel', //public to channel
-    text: `_${name}_ found ✨`,
+    response_type: 'in_channel', //public to channel...ephemeral is private message
+    text: titleize(name) + " found ✨",
     attachments:[ {
       color: "#8A2BE2",
+      title: titleize(name),
+      title_link: "http://adventuretime.wikia.com/wiki/" + `${name}`,
       image_url: characters[name],
       mrkdwn_in: [
         "text",
