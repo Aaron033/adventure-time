@@ -3,6 +3,7 @@
 const characters = require('./characters');
 const express = require('express');
 const bodyParser = require('body-parser');
+const moment = require('moment');
 
 const app = express();
 app.use(bodyParser.json()); //support json encoded bodies
@@ -29,11 +30,23 @@ app.post('/', (req, res) => {
     return;
   }
 
+  let time = moment().format('MMMM Do YYYY, h:mm:ss a');
+  console.log(time);
   let data = {
     response_type: 'in_channel', //public to channel
-    text: `${name} found ✨`,
+    text: `_${name}_ found ✨`,
     attachments:[ {
-      image_url: characters[name]
+      color: "#8A2BE2",
+      image_url: characters[name],
+      mrkdwn_in: [
+        "text",
+        "footer",
+      ],
+      thumb: "Adventures!",
+      thumb_url: "http://vignette2.wikia.nocookie.net/adventuretimewithfinnandjake/images/a/a7/Character_icon.PNG/revision/latest?cb=20150708012908",
+      footer: "Adventure Time",
+      footer_icon: "http://vignette2.wikia.nocookie.net/adventuretimewithfinnandjake/images/a/a7/Character_icon.PNG/revision/latest?cb=20150708012908",
+      ts: moment().unix(),
     } ]};
 
     res.json(data);
