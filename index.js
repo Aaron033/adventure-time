@@ -8,12 +8,15 @@ const titleize = require('titleize');
 const request = require('request');
 
 const app = express();
+
+app.set('port', process.env.PORT || 3000);
+
 app.use(bodyParser.json()); //support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true})); //support encoded bodies.
 //must say {extended: true} because compressed bodies will be inflated and the default value of the extended option has been deprecated
 
-const server = app.listen(80, () => {
-  console.log('Express server is listening on port %d in %s mode', server.address().port, app.settings.env);
+const server = app.listen(app.get('port'), () => {
+  console.log('Express server is listening on part %d in %s mode', server.address().port, app.settings.env);
 });
 
 // Authorization handshake
