@@ -70,7 +70,7 @@ app.post('/', (req, res) => {
   console.log(time);
   let data = {
     response_type: 'in_channel', //public to channel...ephemeral is private message
-    text: titleize(name) + " found ✨",
+    text: titleize(name) + " found 🌙✨",
     attachments:[ {
       color: "#8A2BE2",
       title: titleize(name),
