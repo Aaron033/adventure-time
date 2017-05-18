@@ -1,9 +1,9 @@
-# ** Adventure Time Slackbot **
+# Adventure Time Slackbot
 
 ![Adventure Time](https://media.giphy.com/media/IYjiu6ntwXzhe/giphy.gif?response_id=591d48e8abc0d8c8936a9d35)
 
 ### Written in Node
-### ~* made with 💜 by [Patricia](http://www.twitter.com/patricia_arbona) *~
+### made with 💜 by [Patricia](http://www.twitter.com/patricia_arbona)
 
 ## What exactly is [_Adventure Time_](http://adventuretime.wikia.com/wiki/Adventure_Time_with_Finn_and_Jake_Wiki)? 🤔
 - _Adventure Time_ is a story about the last human boy, Finn, and his best friend (and adoptive brother) Jake, a magical dog with powers to change shape and size at will. The duo fights against monsters and villians to keep the candy-citizens of Candy Kingdom safe. Sometimes they're assisted with the help of Princess Bubblegum, leader of Candy Kingdom.
