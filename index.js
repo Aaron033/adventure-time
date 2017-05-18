@@ -23,7 +23,7 @@ const server = app.listen(app.get('port'), () => {
 
 app.get('/slack', function(req, res){
   if (!req.query.code) { // access denied
-    res.redirect('www.patriciaarbona.com');
+    res.redirect('www.patriciaarbona.com/');
     return;
   }
   var data = {form: {
@@ -40,7 +40,7 @@ app.get('/slack', function(req, res){
       request.post('https://slack.com/api/team.info', {form: {token: token}}, function (error, response, body) {
         if (!error && response.statusCode == 200) {
           if(JSON.parse(body).error == 'missing_scope') {
-            res.send('HTTP Status Cats has been added to your team!');
+            res.send('Adventure time Slackbot has been added to your team!');
           } else {
             let team = JSON.parse(body).team.domain;
             res.redirect('http://' +team+ '.slack.com');
