@@ -17,7 +17,7 @@ To run locally:
 - Local server is running on port 3000. Type in `localhost:3000` into url.
 
 ### Don't feel like setting this up locally on your machine?
-- Click  ** [here](www.patriciaarbona.com/adventure-time) ** to see the deployed _Adventure Time_ Slackbot. Integrate it into your Slack team today 👌🏼.
+- Click [here](www.patriciaarbona.com/adventure-time) to see the deployed _Adventure Time_ Slackbot. Integrate it into your Slack team today 👌🏼.
 
 
 ![Jake the Dog](https://media.giphy.com/media/eeDarGFPiZxyE/giphy.gif?response_id=591d4524d9e3362bd6e6b70c)
