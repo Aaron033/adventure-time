@@ -6,12 +6,13 @@
 ### made with 💜 by [Patricia](http://www.twitter.com/patricia_arbona)
 
 ## What exactly is [_Adventure Time_](http://adventuretime.wikia.com/wiki/Adventure_Time_with_Finn_and_Jake_Wiki)? 🤔
-- _Adventure Time_ is a story about the last human boy, Finn, and his best friend (and adoptive brother) Jake, a magical dog with powers to change shape and size at will. The duo fights against monsters and villians to keep the candy-citizens of Candy Kingdom safe. Sometimes they're assisted with the help of Princess Bubblegum, leader of Candy Kingdom.
+- _Adventure Time_ is a story about the last human boy, Finn, and his best friend (and adoptive brother) Jake, a magical dog with powers to change shape and size at will. The duo fights against monsters and villians to keep the candy-citizens of Candy Kingdom safe. Sometimes they're assisted with the help of Princess Bubblegum, leader of Candy Kingdom. I personally love _Adventure Time_ for its colorful animation, interesting worlds, and strong interesting female characters, specifically Princess Bubblegum and Marceline the Vampire Queen.
 
 
 
+Assuming you have `node` installed on your machine...
 To run locally:
-- `git clone git@github.com:arbonap/adventure-time.git`
+- Clone this repository: `git clone git@github.com:arbonap/adventure-time.git`
 - Install node modules. Run `npm i` in the terminal.
 - To run the server, run `node index.js`
 - Local server is running on port 3000. Type in `localhost:3000` into url.
