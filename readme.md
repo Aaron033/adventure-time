@@ -2,6 +2,7 @@
 
 ![Adventure Time](https://media.giphy.com/media/IYjiu6ntwXzhe/giphy.gif?response_id=591d48e8abc0d8c8936a9d35)
 
+### How does it work? 🍒
 ![Adventure Time Slackbot - how to use?](./slackbot-gif.gif)
 
 ### Authenticate here:
@@ -17,8 +18,8 @@ https://slack.com/oauth/authorize?scope=commands+team%3Aread&client_id=215290743
 
 
 
-### Don't feel like setting this up locally on your machine?
-- Click [here](www.patriciaarbona.com/adventure-time) to see the deployed _Adventure Time_ Slackbot. Integrate it into your Slack team today 👌🏼.
+### Adventure Time Slackbot's Internet home:
+- Click [here](www.patriciaarbona.com/adventure-time) to see the _Adventure Time_ Slackbot's internet home. Integrate it into your Slack team today 👌🏼.
 
 
 ![Jake the Dog](https://media.giphy.com/media/eeDarGFPiZxyE/giphy.gif?response_id=591d4524d9e3362bd6e6b70c)
