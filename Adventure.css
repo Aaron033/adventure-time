@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right, black 0%, grey 100%), url("dark_embroidery.png");
+  background-image: url("./dark_embroidery.png");
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -12,4 +12,8 @@ body {
 img:hover {
   opacity: 50%;
   cursor: crosshair;
+}
+
+h1 {
+  font-family: 'Bree Serif', serif;
 }

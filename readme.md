@@ -2,6 +2,12 @@
 
 ![Adventure Time](https://media.giphy.com/media/IYjiu6ntwXzhe/giphy.gif?response_id=591d48e8abc0d8c8936a9d35)
 
+## Adventure Time Slackbot
+### Authenticate here:
+
+[<img src="https://platform.slack-edge.com/img/add_to_slack@2x.png">](
+https://slack.com/oauth/authorize?scope=commands+team%3Aread&client_id=2152907430.128598200694)
+
 ### Written in Node
 ### made with 💜 by [Patricia](http://www.twitter.com/patricia_arbona)
 
@@ -9,13 +15,6 @@
 - _Adventure Time_ is a story about the last human boy, Finn, and his best friend (and adoptive brother) Jake, a magical dog with powers to change shape and size at will. The duo fights against monsters and villians to keep the candy-citizens of Candy Kingdom safe. Sometimes they're assisted with the help of Princess Bubblegum, leader of Candy Kingdom. I personally love _Adventure Time_ for its colorful animation, interesting worlds, and strong interesting female characters, specifically Princess Bubblegum and Marceline the Vampire Queen.
 
 
-
-Assuming you have `node` installed on your machine...
-To run locally:
-- Clone this repository: `git clone git@github.com:arbonap/adventure-time.git`
-- Install node modules. Run `npm i` in the terminal.
-- To run the server, run `node index.js`
-- Local server is running on port 3000. Type in `localhost:3000` into url.
 
 ### Don't feel like setting this up locally on your machine?
 - Click [here](www.patriciaarbona.com/adventure-time) to see the deployed _Adventure Time_ Slackbot. Integrate it into your Slack team today 👌🏼.
