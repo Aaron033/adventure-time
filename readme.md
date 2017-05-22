@@ -2,7 +2,6 @@
 
 ![Adventure Time](https://media.giphy.com/media/IYjiu6ntwXzhe/giphy.gif?response_id=591d48e8abc0d8c8936a9d35)
 
-## Adventure Time Slackbot
 ### Authenticate here:
 
 [<img src="https://platform.slack-edge.com/img/add_to_slack@2x.png">](
