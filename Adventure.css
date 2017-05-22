@@ -15,7 +15,7 @@ img:hover {
   border: 5px dotted white;
 }
 
-h1 {
+h1, h2 {
   color: white;
   font-family: 'Bree Serif', serif;
 }
