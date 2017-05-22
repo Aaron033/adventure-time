@@ -12,10 +12,15 @@ body {
 img:hover {
   opacity: 50%;
   cursor: crosshair;
-  border: 5px dotted white;
+  border: 2px white;
+  margin: 10px;
 }
 
 h1, h2, p {
   color: white;
   font-family: 'Bree Serif', serif;
+}
+
+p {
+  background-color: gray;
 }
